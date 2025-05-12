@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+}
+#palette {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.color {
+  margin: 10px;
+  padding: 30px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.color:hover {
+  transform: scale(1.1);
+}
